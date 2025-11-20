@@ -1,0 +1,17 @@
+{
+  "doctype":"DocType",
+  "name":"Proctor Session",
+  "module":"Proctor Tool",
+  "custom":true,
+  "fields":[
+    {"fieldname":"student","label":"Student","fieldtype":"Link","options":"User","reqd":1},
+    {"fieldname":"quiz_submission","label":"Quiz Submission","fieldtype":"Link","options":"LMS Quiz Submission"},
+    {"fieldname":"quiz","label":"Quiz","fieldtype":"Link","options":"LMS Quiz"},
+    {"fieldname":"status","label":"Status","fieldtype":"Select","options":"Running\nCompleted\nFlagged\nCancelled","default":"Running"}
+  ],
+  "permissions":[
+    {"role":"System Manager","read":1,"write":1},
+    {"role":"Instructor","read":1},
+    {"role":"Student","read":1}
+  ]
+}
