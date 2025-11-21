@@ -1,0 +1,5 @@
+{
+    "js/proctor_quiz.min.js": [
+        "public/js/proctor_quiz.js"
+    ]
+}
