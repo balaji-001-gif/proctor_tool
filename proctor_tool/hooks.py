@@ -18,7 +18,7 @@ app_license = "MIT"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/proctor_tool/css/proctor_tool.css"
-web_include_js = "/assets/proctor_tool/js/proctor_quiz.min.js"
+web_include_js = "/assets/proctor_tool/js/proctor_quiz.js"
 
 # DocEvents
 # ------------------
@@ -33,5 +33,5 @@ doc_events = {
 # Doctype JS
 # ------------------
 doctype_js = {
-    "LMS Quiz": "/assets/proctor_tool/js/proctor_quiz.min.js"
+    "LMS Quiz": "/assets/proctor_tool/js/proctor_quiz.js"
 }
